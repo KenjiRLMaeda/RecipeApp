@@ -1,0 +1,18 @@
+.container {
+  color: #89bd89;
+  margin-top: 30px;
+}
+
+.notFound {
+  background-image: url('./pratoSujo.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 420px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.notFound-title {
+  font-size: 50px;
+  text-align: center;
+}

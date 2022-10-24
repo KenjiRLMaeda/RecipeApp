@@ -1,0 +1,75 @@
+.exFoods-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.by-ingredient {
+  background-color: #89bd89;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  color: black;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  height: 45px;
+  letter-spacing: 2.5px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  outline: none;
+  padding: 8px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  width: 200px;
+}
+
+.by-nationality {
+  background-color: #89bd89;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  color: black;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  height: 45px;
+  letter-spacing: 2.5px;
+  margin-bottom: 5px;
+  margin-top: 35px;
+  outline: none;
+  padding: 8px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  width: 200px;
+}
+
+.surprise-buttom {
+  background-color: #89bd89;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  color: black;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  height: 45px;
+  letter-spacing: 2.5px;
+  margin-bottom: 5px;
+  margin-top: 35px;
+  outline: none;
+  padding: 8px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  width: 200px;
+}
+
+.exFoods-container {
+  align-items: center;
+  background-image: url('../../images/background.jpg');
+  background-size: contain;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+}

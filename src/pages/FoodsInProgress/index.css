@@ -1,0 +1,7 @@
+.ingredients-checkboxes {
+  display: flex;
+}
+
+.ingredient-is-done {
+  text-decoration: line-through;
+}

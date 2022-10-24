@@ -1,0 +1,36 @@
+h3 {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.profile-buttom {
+  background-color: #89bd89;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  color: black;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  height: 45px;
+  letter-spacing: 2.5px;
+  margin-bottom: 5px;
+  margin-left: 78px;
+  margin-top: 30px;
+  outline: none;
+  padding: 8px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  width: 200px;
+}
+
+.profile_container {
+  align-items: center;
+  background-image: url('../../images/background.jpg');
+  background-size: contain;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+
+  /* opacity: 0.8; */
+}

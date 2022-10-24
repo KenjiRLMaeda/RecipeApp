@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  align-items: center;
+  background-image: url('./appRecipes.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-login {
+  align-items: center;
+  background-color: rgba(84, 93, 97, 0.5);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  width: 300px;
+}
+
+.button-login {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.form-login > .button-login, .input-login {
+  border: none;
+  border-radius: 5px;
+  font-family: Courier New , Courier , monospace;
+  height: 30px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.App-header img {
+  width: 300px;
+}
+
+.login-title {
+  color: #89bd89;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+}
